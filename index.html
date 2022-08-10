@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href='style.css'>
+  <title>Photo</title>
+
+</head>
+<body>
+  <div class="container">
+
+    <div class="nav">
+      <i class="fa-solid fa-clone"  id="copy"></i>
+      <div class='overflow'>
+    <div class="base">
+      <p>width</p>
+      <input type="number" value="300" id="num" onclick="Base(0)">
+      <p>height</p>
+      <input type="number" value="100" id="num" onclick="Base(1)">
+      <p>background-color</p>
+      <input type="color" id="head" name="head" value="#7CB9BD">
+    </div>
+
+    <div class="slider">
+      
+      
+      <p>border-top</p>
+      <input  id='slid' type="range"   min="0" max="100" value="0">
+      <input type="color" id="head" name="head" value="#7CB9BD">
+
+      <p>border-bottom</p>
+      <input type="range"  id='slid' min="0" max="100" value="0">
+      <input type="color" id="head" name="head" value="#7CB9BD">
+
+      <p>border-left</p>
+      <input type="range"  id='slid' min="0" max="100" value="0">
+      <input type="color" id="head" name="head" value="#7CB9BD">
+
+      <p>border-right</p>
+      <input type="range"  id='slid' min="0" max="100" value="0">
+      <input type="color" id="head" name="head" value="#7CB9BD">
+
+    </div>
+
+    <div class="radius">
+      <p>border-top-left-radius</p>
+      <input  id='slid' type="range"   min="0" max="100" value="0">
+      
+      <p>border-bottom-right-radius</p>
+      <input type="range"  id='slid' min="0" max="100" value="0">
+     
+      <p>border-top-right-radius</p>
+      <input type="range"  id='slid' min="0" max="100" value="0">
+     
+
+      <p>border-bottom-left-radius</p>
+      <input type="range"  id='slid' min="0" max="100" value="0">
+     
+
+    </div>
+    
+    </div>
+
+  </div>
+    <div class="widget">
+
+    <button id="widgetButton">Button</button>
+    </div>
+  </div>
+
+
+<script src="app.js"></script>
+</body>
+</html>
